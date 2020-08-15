@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 const MoreInformation =({gender, size, weight, age, fnac, sterilized, info})=>(
     <div>
         <div className="uk-column-1-2 uk-column-divider">
