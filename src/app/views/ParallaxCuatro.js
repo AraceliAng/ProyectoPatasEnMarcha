@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+
 class ParallaxCuatro extends Component{
     render(){
         return(
