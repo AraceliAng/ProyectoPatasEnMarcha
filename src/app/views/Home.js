@@ -12,6 +12,7 @@ import Subscribe from './Subscribe';
 import ParallaxCinco from './ParallaxCinco';
 import Contact from './Contact';
 
+
 class Home extends Component{
     render(){
         return(
