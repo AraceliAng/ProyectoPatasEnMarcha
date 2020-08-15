@@ -4,6 +4,7 @@
             "img":"https://res.cloudinary.com/araceliang/image/upload/v1597109411/patasEnMarcha/logo-paw_qaawt4.png"
         }
     ],
+
     "parallax":[
         {
             "img":"https://res.cloudinary.com/araceliang/image/upload/v1597109415/patasEnMarcha/parallax1_tc486o.jpg"
@@ -126,6 +127,7 @@
             "sterilized": "Si"
         }
     ],
+    
     "extra":[
         {
             "img":"https://res.cloudinary.com/araceliang/image/upload/v1597109405/patasEnMarcha/huella_k4s89c.svg"
