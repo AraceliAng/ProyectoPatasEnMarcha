@@ -1,6 +1,5 @@
 import React from 'react';
 import {BrowserRouter, Switch, Redirect, Route} from 'react-router-dom';
-import './app/styles/main.css';
 import Home from './app/views/Home';
 import Paw from './app/views/Paw';
 import Apadrina from './app/views/Apadrina';

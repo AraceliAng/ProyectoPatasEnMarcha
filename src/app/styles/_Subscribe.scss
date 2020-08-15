@@ -1,0 +1,35 @@
+@import './Variables';
+
+.subscribe{
+    background-color: $colorBlack;
+    display: column;
+    text-align: $center;
+    padding: 20px 50px;
+    padding-top: 100px;
+}
+
+.subscribe-container{    
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: $fontFamily;
+}
+
+.div-inputs{
+    display: $flex;
+    flex-direction: column;
+    width: $cienPorciento;
+}
+
+.subscribe-button{
+    width: 50%;
+    justify-content: $center;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: $colore6;
+}
+
+.subscribe-button:hover{
+    border-radius: 10px;
+    color: $colorWhite;
+}
+

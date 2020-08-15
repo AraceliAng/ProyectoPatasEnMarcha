@@ -1,0 +1,71 @@
+@import './Variables';
+
+.bannerButtonChat{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #FCC558;
+    color: $colorBlack;
+    width: 260px;
+    height: 40px;
+    font-family: $fontFamily;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    z-index: 1;
+}
+.bannerButtonChat:hover{
+    background-color: #DEAD4C;
+    color: $colorBlack;
+}
+.chatContainer{
+    width: 260px;
+    height: 300px;
+    font-family: $fontFamily;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: fixed;
+    right: 0px;
+    bottom: 60px;
+    z-index: 1;
+
+}
+#chat {
+    height: 200px;
+    overflow-y: auto;
+    background-color: #FCEDCF;
+    color: $colorBlack;
+}
+
+.bannerChat{
+    background-color: #FCC558;
+    color: $colorBlack;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: $flex;
+    justify-content: $center;
+    height: 30px;
+}
+
+
+.form-container-chat{
+    width: $cienPorciento;
+    /* margin: 0px; */
+}
+.form-subcontainer-chat{
+    width: $cienPorciento;    
+}
+
+.chat-button{
+    background-color: #FCC558;
+    color: $colorBlack;
+    width: 260px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.chat-button:hover{
+    background-color: #DEAD4C;
+    color: $colorBlack;
+}

@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import '../styles/main.css';
 
 class ParallaxCuatro extends Component{
     render(){

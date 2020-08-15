@@ -18,6 +18,7 @@ class Paw extends Component{
         rescue: {},
         tempHome: {}
     }
+
     handleChange=(event,nameForm)=>{
         const {rescue,tempHome} = this.state;
         const {name,value} = event.target;
@@ -29,17 +30,18 @@ class Paw extends Component{
           tempHome[name]= value
         }
         this.setState({rescue,tempHome})
-      }
+    }
+
     sendData=(event)=>{
         event.preventDefault()
         const {name} = event.target
         if(name === "rescue"){
           console.log("Es el rescatista", this.state.rescue)
-         
+          this.setState({rescue: {}});
         }else{
           console.log("Es el hogar temporal", this.state.tempHome)
+          this.setState({tempHome: {}});
         }
-        
       }
 
 

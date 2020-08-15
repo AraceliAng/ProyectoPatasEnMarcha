@@ -1,0 +1,18 @@
+@import './Variables';
+
+.total {
+    height: $cienPorciento;
+    margin: 0%;
+    padding: 0%;
+    font-family: $fontFamily;
+    color: $colorGray;
+}
+head {
+    display: none;
+}
+.navbar-container{
+    height: $setentaPx;
+    position: fixed;
+    margin-top: 0;
+    z-index: 70;
+}

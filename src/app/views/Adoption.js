@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import CardContainer from '../components/CardContainer';
-import images from '../json/images.json';
+import information from '../json/information.json';
 // import More from './More';
 
 
@@ -19,7 +18,7 @@ class Adoption extends Component{
               </p>
             </span>
             <div className="uk-child-width-1-3@s uk-text-center adoption-container" uk-grid="true">
-              {images.adopcion.map((item, index)=> <CardContainer key={index} {...item} /> )}
+              {information.adopcion.map((item, index)=> <CardContainer key={index} {...item} /> )}
             </div>
             
           </section>

@@ -1,0 +1,57 @@
+@import './Variables';
+
+.parallax-1 {
+    background-image: url(../assets/parallax1.jpg);
+    min-height: $cuatrocientosPx;
+}
+.parallax-2 {
+    background-image: url(../assets/parallax2.jpg);
+    min-height: $cuatrocientosPx;
+}
+.parallax-3 {
+    background-image: url(../assets/parallax3.jpg);
+    min-height: $cuatrocientosPx;
+}
+.parallax-4 {
+    background-image: url(../assets/parallax4.jpg);
+    min-height: $cuatrocientosPx;
+}
+.parallax-5 {
+    background-image: url(../assets/parallax5.jpg);
+    min-height: $cuatrocientosPx;
+}
+.parallax-1, .parallax-2, .parallax-3, .parallax-4, .parallax-5 {
+    position: relative;
+    /* opacity: 0.65; */
+    background-attachment: fixed;
+    background-position: $center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: $cienPorciento;
+    text-align: $center;
+    color: $colorBlack;
+}
+.border {
+    background-color: $colorBlack;
+    color: $colorWhite;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+    font-family: $fontFamily;
+    text-transform: uppercase;
+}
+.borderStyle{
+    background-color:transparent;
+    font-size:25px;
+    color: $colorf8;
+}
+div {
+    display: block;
+}

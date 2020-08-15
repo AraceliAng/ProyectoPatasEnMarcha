@@ -1,0 +1,99 @@
+@import './Variables';
+
+.paw{
+    margin: 20px;
+    color: $colorGray;
+    background-color: $colorWhite;
+    text-align: $center;
+    padding: 20px;
+    padding-top: 70px;
+    margin-top: 30px;
+}
+
+.paw-accordion{
+    background:$colorf8;
+    margin: 0;
+    padding: 10px;
+}
+.paw-post{
+    cursor: pointer;
+    position: relative;
+    align-self: $center;
+    justify-self: $center;
+}
+
+.paw-image{
+    margin: 0;
+}
+
+.paw-image img{
+    width: $cienPorciento;
+}
+
+.paw-overlay{
+    background: rgba(0,0,0, .7);
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    display: none;
+    align-items: $center;
+    justify-content: $center;
+    color: $colorWhite;
+}
+
+.paw-post:hover .paw-overlay{
+    display: $flex;
+}
+
+.paw-image-four{
+    margin: 0;
+    align-self: $center;
+    justify-self: right;
+}
+
+/* .paw-image-four1 img, */
+.paw-image-four img{
+    transform:rotate(90deg);
+    -ms-transform:rotate(90deg); /* IE 9 */
+    -webkit-transform:rotate(90deg); /* Opera, Chrome, and Safari */
+    width: 15px;
+    height: 15px;
+}
+
+.form-container{
+    display: $flex;
+    justify-content: $center;
+    align-items: $center;    
+}
+
+.form-subcontainer{
+    width: 70%;    
+}
+
+.input-style{
+    border-radius: 10px;
+}
+
+.form-button{
+    display: $flex;
+    justify-content: $center;
+    align-items: $center;
+}
+
+.paw-button{
+    border-radius: 10px;
+    background-color: $colore6;
+}
+
+.donation-image{
+    width: 30%;
+    margin-right: 50px;
+}
+
+.list-donation{
+    display: $flex;
+    justify-content: $center;
+    margin-left: 20px;
+}

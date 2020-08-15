@@ -1,0 +1,19 @@
+@import './Variables';
+
+.align-center{
+    display: $flex;
+    justify-content: $center;
+    align-items: $center;
+}
+
+.align-left{
+    display: $flex;
+    justify-content: left;
+}
+
+.subscribe-align{
+    display: $flex;
+    justify-content: $center;
+    padding: 0 5px 0 5px; 
+}
+

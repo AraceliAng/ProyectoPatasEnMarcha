@@ -24,7 +24,11 @@ const CardContainer=({names, gender, size, imag})=>(
                 <button  className="uk-button uk-button-text">Ver más</button>
             </div>
         </div>
+       
+
     </div>
+
+
        
 )
 

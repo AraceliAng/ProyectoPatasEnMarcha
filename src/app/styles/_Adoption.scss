@@ -1,0 +1,31 @@
+@import './Variables';
+
+.adoption{
+    margin: 20px;
+    color: $colorGray;
+    background-color:$colorWhite;
+    text-align: $center;
+    padding: 20px;
+    padding-top: $setentaPx;
+    margin-top: 30px;
+}
+.adoption-container{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 0px;
+    padding-right: 30px;
+    background-color: $colorf8;
+    font-family: $fontFamily;
+    border-radius: 5px;
+    margin: 0;
+}
+
+.header-card{
+    display: $flex;
+    justify-items: baseline;
+}
+
+.footer-card{
+    display: $flex;
+    justify-items: baseline;
+}

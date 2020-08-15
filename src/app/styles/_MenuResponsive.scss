@@ -1,0 +1,14 @@
+@import './Variables';
+
+.burger-menu{
+    width: $setentaPx;
+    height: $setentaPx;
+ }
+ 
+ .menuResponsive{
+     background-color: $colorf8;
+     color: $colorGray;
+ }
+ .uk-offcanvas-bar a{
+     color: $colorGray;
+ }

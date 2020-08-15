@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../styles/main.css';
+import '../styles/Main.css';
 import Header from './Header';
 import ParallaxUno from './ParallaxUno';
 import Paw from './Paw'

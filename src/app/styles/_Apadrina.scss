@@ -1,0 +1,19 @@
+@import './Variables';
+
+.apadrina{
+    margin: 20px;
+    color: $colorGray;
+    background-color:$colorWhite;
+    text-align: $center;
+    padding: 20px;
+    padding-top: $setentaPx;
+    margin-top: 30px;
+}
+
+.apadrina-container{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: $colorf8;
+    font-family: $fontFamily;
+    border-radius: 5px;
+}

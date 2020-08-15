@@ -1,0 +1,59 @@
+@import './Variables';
+
+.paw-tittle{
+    font-family: $fontFamily;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.navbar-text-parallax{
+    color: $colorWhite;
+    display: $flex;
+    justify-content: right;
+    align-items: $center;
+    font-family: $fontFamily;
+}
+
+.font-paw{
+    font-family: $fontFamily;
+}
+
+.text-subscribe{
+    color: $colorWhite;
+    text-align: $center;
+    font-family: $fontFamily;
+    margin-bottom: 10px;
+}
+
+.tittle-secction-black{
+    color: $colorWhite;
+    font-family: $fontFamily;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.text-paw{
+    text-align: $center;
+    font-family: $fontFamily;
+    margin-bottom: 10px;
+}
+
+.paw-accordion-tittle{
+    background-color: $colorf8;
+    color: $colorGray;
+    border-radius: 5px;
+    height: 50px;
+    padding: 10px;
+    display: $flex;
+    align-items: $center;
+    font-family: $fontFamily;
+}
+
+.paw-commentary{
+    width: 90%;
+    margin: 5px;
+    font-size: 13px;
+    display: inline-block;
+    font-family: $fontFamily;
+}
+
