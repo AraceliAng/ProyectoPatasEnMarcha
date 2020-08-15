@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+
 class ParallaxDos extends Component{
     render(){
         return(
